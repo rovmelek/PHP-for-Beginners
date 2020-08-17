@@ -10,9 +10,9 @@
       echo 'User input text is: ' . $_POST['textInput'];
     } ?>
     <form action="" method="post">
-    <label for="textInput">Enter text:</label>
-    <input type="text" id="textInput" name="textInput">
-    <input type="submit" value="Submit">
+      <label for="textInput">Enter text:</label>
+      <input type="text" id="textInput" name="textInput">
+      <input name="submit" type="submit">
     </form>
 </body>
 </html>
