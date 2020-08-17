@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +12,6 @@
 	<div class="container">
 		<header class="row">
 			
-			<h1 class="text-center"><?php  getTitle(); ?></h1>
+			<h1 class="text-center"><?php getTitle(); ?></h1>
 
 		</header>
