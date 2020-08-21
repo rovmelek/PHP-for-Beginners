@@ -23,7 +23,8 @@ class Vehicle
 class Car extends Vehicle
 {
   public string $type;
-  public function setType(string $type)
+
+  public function setType(string $type): void
   {
     $this->type = $type;
   }
